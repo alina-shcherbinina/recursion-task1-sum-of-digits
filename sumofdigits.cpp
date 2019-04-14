@@ -7,7 +7,7 @@ int Summ(int64_t a) {
 	if (a < 10)
 		return a;
 	if (a >= 10)
-		return (Summ(a / 10)+ a % 10);;
+		return (Summ(a / 10)+ a % 10);
 }
 
 int main() {
